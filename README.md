@@ -1,167 +1,99 @@
+# 🌐 WebDev Expedition
+
+> A structured self-learning journey documenting my progression from web development fundamentals to advanced full-stack engineering through hands-on projects and real-world application development.
+
 <div align="center">
 
-# 🏡 Airbnb Clone
-
-### Full-Stack Accommodation Booking Platform
-
-> A production-inspired Airbnb clone built with **Node.js, Express.js, MongoDB, Passport.js, Cloudinary, MapTiler, and Bootstrap**, featuring secure authentication, property listings, image uploads, reviews, and interactive maps.
-
-<p>
-
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-<img src="https://img.shields.io/badge/Passport.js-34E27A?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
-<img src="https://img.shields.io/badge/MapTiler-1D4ED8?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Joi-E8633F?style=for-the-badge"/>
-
-</p>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 </div>
 
 ---
 
-## ✨ Features
+# 📚 Learning Roadmap
 
-- 🔐 Secure Authentication & Authorization
-- 🏡 Create, Edit & Delete Property Listings
-- 📸 Cloudinary Image Uploads
-- ⭐ Reviews & Ratings
-- 🌍 Interactive Maps with Geocoding
-- 👤 Host Ownership & Route Protection
-- 📱 Fully Responsive UI
-- 💬 Flash Messages & Form Validation
-
----
-
-## 🛠 Tech Stack
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,mongodb,git,github,vscode,postman"/>
-
-</p>
-
-**Additional Technologies**
-
-- Bootstrap 5
-- EJS
-- Mongoose
-- Passport.js
-- Express Session
-- Cloudinary
-- Multer
-- MapTiler
-- Joi
-- Axios
-- Connect Flash
-- Method Override
+## 🌱 Foundations
+- HTML5
+- CSS3
+- Responsive Web Design
+- Flexbox & Grid
+- Bootstrap
+- JavaScript (ES6+)
+- DOM Manipulation
+- Events & Async JavaScript
 
 ---
 
-## 🏗️ Architecture
-
-```text
-Client
-   │
-   ▼
-Express.js Server
-   │
-   ▼
-Authentication (Passport.js)
-   │
-   ▼
-Controllers
-   │
-   ▼
-MongoDB (Mongoose)
-   │
-   ├── Cloudinary
-   └── MapTiler
-```
+## ⚛️ React Ecosystem
+- React Fundamentals
+- Components
+- Props & State
+- Hooks
+- React Router
+- Context API
+- Redux
+- Redux Toolkit
 
 ---
 
-## 🚀 Installation
-
-```bash
-git clone https://github.com/Sairaj2033/Airbnb.git
-
-cd Airbnb
-
-npm install
-```
-
-Create a `.env` file
-
-```env
-ATLASDB_URL=
-
-SECRET=
-
-CLOUD_NAME=
-CLOUD_API_KEY=
-CLOUD_API_SECRET=
-
-MAP_TILER=
-```
-
-Run the application
-
-```bash
-npm start
-```
-
-Open:
-
-```
-http://localhost:8080
-```
+## 🎨 Modern UI Development
+- Tailwind CSS
+- Responsive Design
+- Component-Based UI
+- Animations
+- Reusable Components
 
 ---
 
-## 📚 What I Learned
-
+## 🚀 Backend Development
+- Node.js
+- Express.js
+- REST APIs
+- Authentication
+- JWT
+- Middleware
 - MVC Architecture
-- RESTful Routing
-- Authentication & Authorization
+
+---
+
+## 🗄️ Database
+- MongoDB
+- Mongoose
 - CRUD Operations
-- MongoDB & Mongoose
-- Cloud Image Storage
-- Session Management
-- API Integration
-- Input Validation
-- Production-Ready Backend Development
+- Relationships
+- Aggregation
 
 ---
 
-## 🚀 Future Enhancements
+## 🛠 Real-World Projects
 
-- ❤️ Wishlist
-- 📅 Booking System
-- 💳 Payment Integration
-- 🔍 Advanced Search & Filters
-- 🌙 Dark Mode
-
----
-
-## 👨‍💻 Author
-
-**Sairaj Patil**
-
-- 🐙 GitHub: https://github.com/Sairaj2033
-- 💼 LinkedIn: https://linkedin.com/in/sairaj-patil-631701311
-- 📧 sairajpatil035@gmail.com
+- Airbnb Clone
+- Zerodha Clone
+- GitHub Clone
+- Spotify Clone
+- Portfolio Websites
+- Authentication Systems
+- Full Stack MERN Applications
 
 ---
 
-<div align="center">
+## 🎯 Goal
 
-### ⭐ If you found this project helpful, consider giving it a star!
+This repository documents my journey of becoming a **production-ready Full Stack MERN Developer** by building increasingly complex applications while learning modern development practices.
 
-**Built with ❤️ by Sairaj Patil**
+---
 
-</div>
+## ⭐ Support
+
+If you found this repository helpful, consider giving it a **⭐**.
+
