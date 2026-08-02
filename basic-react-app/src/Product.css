@@ -1,10 +1,11 @@
 .Product {
     
     border: 1px solid white;
-    border-radius: 26px;
-    margin: 1rem 12rem;
-    
-    padding: 0 30px 0 30px;
+    border-radius: 20px;
+    margin: 0.3rem ;
+    height: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     
 
 }
