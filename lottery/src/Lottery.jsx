@@ -18,6 +18,7 @@ return(
 <span> {ticket[0]} </span>
 <span> {ticket[1]} </span>
 <span> {ticket[2]} </span>
+
 </div>
 <br />
 <button onClick={buyTicket}>Buy New Ticket</button>
