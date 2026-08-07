@@ -22,6 +22,7 @@ return(
 </div>
 <br />
 <button onClick={buyTicket}>Buy New Ticket</button>
+
 <h3>{isWinning && "Congratulations, you won!"}</h3>
 </div> 
 );
