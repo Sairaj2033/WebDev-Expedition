@@ -1,7 +1,22 @@
 .TicketNum {
     font-size: 3rem;
+    
    
 } 
 .Ticket {
-    margin-top: 20rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    width: 300px;
+
+    align-items: center;
+    justify-content: center;   
+    margin-left: auto;
+    margin-right: auto;
+    
+
 }
+
+.btm {
+    margin-bottom: 2rem;
+}
+
