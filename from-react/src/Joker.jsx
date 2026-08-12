@@ -15,6 +15,7 @@ export default function Joker() {
     setJoke({ setup: jsonResponse.setup, punchline: jsonResponse.punchline});    
 };
   
+
   useEffect( () => {async function getFirstJoke () {
 
      let response = await fetch(URL);
