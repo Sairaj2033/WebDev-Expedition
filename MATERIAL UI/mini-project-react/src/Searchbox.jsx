@@ -5,13 +5,16 @@ import "./Searchbox.css";
 import { useState } from 'react';
 
 
-export default function Searchbox() {
-    let [city, setCity] = useState("");
+export default function Searchbox({updateInfo}) {
+    let [city, setCity] = useState(false);
+    let [error, setError] = useState("");
+
  const API_URL = "https://api.openweathermap.org/data/2.5/weather";
  const API_KEY = "f252aef6d944c4271a13dce1796e0b5a";
 
- let getWeatherInfo = async ({updateInfo}) => {
-  let response =  await fetch(`${API_URL}?q=${city}&appid=${API_KEY}&units=metric`);
+ let getWeatherInfo = async () => {
+  try {
+    let response =  await fetch(`${API_URL}?q=${city}&appid=${API_KEY}&units=metric`);
   let jsonResponse =  await response.json();
   console.log(jsonResponse);
   let result = {
@@ -25,6 +28,11 @@ export default function Searchbox() {
   }
   console.log(result);
   return result;
+  }
+  catch(err) {
+  throw err;
+}
+  return result;
  };
 
 
@@ -33,11 +41,18 @@ let handleChange =  (evt) => {
 };
 
 let handleSubmit = async (evt) => {
+
+try {
     evt.preventDefault();
     console.log(city);
     setCity("");
     let newInfo = await getWeatherInfo();
-    updateinfo(newInfo);
+    updateInfo(newInfo);
+}
+catch(err) {
+    setError(true)
+}
+
 };
 
 
@@ -47,6 +62,9 @@ let handleSubmit = async (evt) => {
                <TextField id="city" label="City Name" variant="filled" required value={city} onChange={handleChange} /> 
                <br /><br />
                <Button variant="contained"  type='submit' >Search </Button>
+
+               {error && <p style={{color:'red'}} >Invalid Place!</p> }
+
             </form>
         </div>
     )
