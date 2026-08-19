@@ -20,12 +20,16 @@ export default function WeatherApp() {
 
     return ( 
         <div style={{textAlign:"center"}} >
-          <h2>Weather App By Delta</h2>
-
+          <h2> <b>React-GeoExplorer App</b></h2>
+           
+<br /><br />
          <SearchBox updateInfo={updateInfo } ></SearchBox>
          <InfoBox info={weatherInfo} ></InfoBox>
-
-        </div>
+         <p>Thank you for Visitng my work</p>
+       
+         <p><b> <i>If you wanna say Hi! I'd be happy to connect you</i></b> </p>
+            </div>
+        
      )
  
 }
