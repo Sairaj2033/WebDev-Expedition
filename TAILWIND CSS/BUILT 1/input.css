@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+.box {
+    @apply bg-cyan-500 text-white   m-4 border-2 border-black rounded;
+}
+
