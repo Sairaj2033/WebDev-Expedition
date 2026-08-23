@@ -30,14 +30,12 @@ export const todoSlice = createSlice({
         },
 
     //MARK-AS-DONE
-        markAsDone: (state,action) => {
-        //action.payload
-        state.todos = state.todos.map((todo) => {
-            if (todo.id === action.payload) {
-                todo.isDone = true;
-            }
-        });
-        },
+       markAsDone: (state, action) => {
+    const todo = state.todos.find((t) => t.id === action.payload);
+    if (todo) {
+        todo.isDone = true;
+    }
+}
     },
 });
 
